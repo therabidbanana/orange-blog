@@ -1,0 +1,6 @@
+source "http://rubygems.org"
+gem "orange-core", :git => "git://github.com/therabidbanana/orange-core"
+gem "orange-more", :git => "git://github.com/therabidbanana/orange-more"
+gem "orange-sparkles", :git => "git://github.com/orange-project/orange-sparkles"
+gem "dm-sqlite-adapter"
+gem "i18n"

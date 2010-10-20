@@ -1,0 +1,107 @@
+GIT
+  remote: git://github.com/orange-project/orange-sparkles
+  revision: f32880fb60e43d341b4a15457e8386249b9b7b08
+  specs:
+    orange-sparkles (0.7.0)
+      kramdown
+      orange-core (>= 0.5.7)
+      orange-more (>= 0.5.7)
+      rack-abstract-format
+
+GIT
+  remote: git://github.com/therabidbanana/orange-core
+  revision: 3f7015aff3d981844719c8534adff03d2fca5903
+  specs:
+    orange-core (0.7.0)
+      crack
+      dm-core (>= 1.0.0)
+      dm-migrations (>= 1.0.0)
+      haml (>= 2.2.13)
+      rack (>= 1.0.1)
+
+GIT
+  remote: git://github.com/therabidbanana/orange-more
+  revision: 9fbf5450db3d35403ec8b4e0e6b9145a1aa9cc81
+  specs:
+    orange-more (0.7.2)
+      dm-is-awesome_set (>= 0.11.0)
+      dm-timestamps (>= 1.0.0)
+      gattica
+      mail
+      openid_dm_store
+      orange-core (>= 0.5.7)
+      rack-openid
+      radius
+      rest-client
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.1)
+    addressable (2.2.2)
+    crack (0.1.8)
+    data_objects (0.10.2)
+      addressable (~> 2.1)
+    dm-adjust (1.0.2)
+      dm-core (~> 1.0.2)
+    dm-aggregates (1.0.2)
+      dm-core (~> 1.0.2)
+    dm-core (1.0.2)
+      addressable (~> 2.2)
+      extlib (~> 0.9.15)
+    dm-do-adapter (1.0.2)
+      data_objects (~> 0.10.2)
+      dm-core (~> 1.0.2)
+    dm-is-awesome_set (1.0.1)
+      dm-adjust (~> 1.0)
+      dm-aggregates (~> 1.0)
+      dm-core (~> 1.0)
+      dm-transactions (~> 1.0)
+    dm-migrations (1.0.2)
+      dm-core (~> 1.0.2)
+    dm-sqlite-adapter (1.0.2)
+      dm-do-adapter (~> 1.0.2)
+      do_sqlite3 (~> 0.10.2)
+    dm-timestamps (1.0.2)
+      dm-core (~> 1.0.2)
+    dm-transactions (1.0.2)
+      dm-core (~> 1.0.2)
+    do_sqlite3 (0.10.2)
+      data_objects (= 0.10.2)
+    extlib (0.9.15)
+    gattica (0.4.3)
+      hpricot (>= 0.6.164)
+    haml (3.0.22)
+    hpricot (0.8.2)
+    i18n (0.4.1)
+    kramdown (0.11.0)
+    mail (2.2.7)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
+    openid_dm_store (0.2.0)
+      dm-core
+      ruby-openid
+    polyglot (0.3.1)
+    rack (1.2.1)
+    rack-abstract-format (0.9.9)
+    rack-openid (1.2.0)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    radius (0.6.1)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
+    ruby-openid (2.1.8)
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dm-sqlite-adapter
+  i18n
+  orange-core!
+  orange-more!
+  orange-sparkles!
